@@ -1,10 +1,10 @@
-# marks=[23,"yash",45,"harsh",89.9]
-# print(marks[1])#yash
-# print(marks[0])#23
-# print(marks[-3])#45
-# print(marks)#[23,"yash",45,"harsh",89.9]
-# print(len(marks))#5
-# print(marks[len(marks)-1])#89.9
+marks=[23,"yash",45,"harsh",89.9]
+print(marks[1])#yash
+print(marks[0])#23
+print(marks[-3])#45
+print(marks)#[23,"yash",45,"harsh",89.9]
+print(len(marks))#5
+print(marks[len(marks)-1])#89.9
 
 # #sliceing in list
 # #same as string
@@ -107,7 +107,12 @@
 
   
 
-li=["hello",3,True,9.8,18]
-print(li[len(li)-1])
-for i in li:
-    print(i ,end=" ")
+# li=["hello",3,True,9.8,18]
+# print(li[len(li)-1])
+# for i in li:
+#     print(i ,end=" ")
+
+
+
+li=[1,0,0,2,'hi','',[]]
+print(list(filter(bool,li)))
